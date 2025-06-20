@@ -1,12 +1,13 @@
 name: first-workflow
 on: [push]
 
+
 jobs:
   shell-cmd-job:
     runs-on: ubuntu-latest
     steps:
-      - name: echo Hello2
-        run: echo "Hello2 World"
+      - name: echo Hello3
+        run: echo "Hello3 World"
       - name: multiple line cmd
         run: |
           node -v
